@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lay_homeAdmin"
+    android:background="@drawable/bg_cocoa_all"
+    >
+
+    <TextView
+        android:id="@+id/txtHalamanAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Panel"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="24dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearCoffe"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="20dp"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/imgMenu"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/menus"
+                android:layout_below="@+id/txtSelamat"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@+id/imgcoffe"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menu"
+                android:gravity="center"
+                android:textColor="#000"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="20dp"
+            android:gravity="center"
+            android:layout_marginStart="20dp"
+            >
+
+            <ImageView
+                android:id="@+id/imgHistory"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/history"
+                android:layout_below="@+id/txtSelamat"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@+id/imgcoffe"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order User"
+                android:gravity="center"
+                android:textColor="#000"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgExits"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/exits"
+        android:layout_alignParentRight="true"
+
+        />
+
+
+</RelativeLayout>

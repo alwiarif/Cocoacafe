@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/bg_cocoa"
+        android:duration="2500" />
+
+    <item
+        android:drawable="@drawable/bg_cocoatwo"
+        android:duration="2500" />
+
+    <item
+        android:drawable="@drawable/bg_coco_third"
+        android:duration="2500" />
+
+</animation-list>

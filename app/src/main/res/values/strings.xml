@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cocoacafe</string>
+    <string name="title_activity_show">show</string>
+    <string name="title_activity_add_image">AddImageActivity</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "611132796666",
+    "firebase_url": "https://cocoacafe-89975.firebaseio.com",
+    "project_id": "cocoacafe-89975",
+    "storage_bucket": "cocoacafe-89975.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611132796666:android:a3cae3993d246bdb6a2343",
+        "android_client_info": {
+          "package_name": "com.example.cocoacafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611132796666-3ktrov7vuaugddsjcfn69pslmse3cusa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cocoacafe",
+            "certificate_hash": "52019e0f8cec9db708895dc419e6213a819548d8"
+          }
+        },
+        {
+          "client_id": "611132796666-bsain2bam6h6fk8bbejqru1gjn9bsokg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUR3xt3w5-UVcQCZwobglvPZdGYCXmWiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611132796666-bsain2bam6h6fk8bbejqru1gjn9bsokg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
